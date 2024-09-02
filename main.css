@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Tajawal", system-ui;
+}
+
+:root {
+  --titleColor: rgb(66, 55, 89);
+  --primaryColor: rgb(255,191,0);
+  --hoverColor: rgb(159,120,6);
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(1%, rgba(255, 255, 255, 0.706)), color-stop(99%, white)), url(./img/banner.jpg);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.706) 1%, white 99%), url(./img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  gap: 5rem;
+}
+
+.container .topSection .title {
+  color: var(--titleColor);
+  font-size: 3rem;
+  padding: 10px 0;
+}
+
+.container .topSection .subTitle {
+  color: var(--titleColor);
+}
+
+.container .middleSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3rem;
+  /* padding-bottom: 2rem; */
+  border-bottom: 1px solid #bababa;
+}
+
+.container .middleSection h2 {
+  font-size: 40px;
+  color: var(--primaryColor);
+}
+
+.container .middleSection h2 span {
+  font-size: 18px;
+  color: var(--titleColor);
+}
+
+.container .bottomSection .bottomTitle {
+  display: block;
+  padding: 0 0 1rem 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.container .bottomSection .socialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  gap: 1rem;
+}
+
+.container .bottomSection .socialIcons a {
+  text-decoration: none;
+}
+
+.container .bottomSection .socialIcons .uil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--titleColor);
+  cursor: pointer;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  font-size: 3rem;
+}
+
+.container .bottomSection .socialIcons .uil:hover {
+  background: var(--primaryColor);
+  color: #fff;
+}
+
+@media screen and (max-width: 685px) {
+  .container .topSection .title {
+    font-size: 2rem;
+  }
+  .container .topSection .subTitle {
+    font-size: 18px;
+    max-width: 300px;
+    letter-spacing: 5px;
+  }
+  .container .middleSection {
+    gap: 1rem;
+  }
+  .container .middleSection h2 {
+    font-size: 20px;
+  }
+  .container .middleSection h2 span {
+    font-size: 15px;
+  }
+}
+
+::-moz-selection {
+  background: var(--primaryColor);
+  color: var(--titleColor);
+}
+
+::selection {
+  background: var(--primaryColor);
+  color: var(--titleColor);
+}
+/*# sourceMappingURL=main.css.map */
