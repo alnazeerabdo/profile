@@ -81,7 +81,7 @@ body {
 
 .container .bottomSection .bottomTitle {
   display: block;
-  padding: 0 0 1rem 0;
+  padding: 0 1rem 1rem 1rem;
   font-weight: 500;
   font-size: 18px;
 }
@@ -137,7 +137,6 @@ body {
   .container .topSection .subTitle {
     font-size: 18px;
     max-width: 300px;
-/*     letter-spacing: 5px; */
   }
   .container .middleSection {
     gap: 1rem;
