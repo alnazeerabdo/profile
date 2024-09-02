@@ -137,7 +137,7 @@ body {
   .container .topSection .subTitle {
     font-size: 18px;
     max-width: 300px;
-    letter-spacing: 5px;
+/*     letter-spacing: 5px; */
   }
   .container .middleSection {
     gap: 1rem;
