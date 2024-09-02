@@ -122,7 +122,7 @@ body {
   cursor: pointer;
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .container .bottomSection .socialIcons .uil:hover {
