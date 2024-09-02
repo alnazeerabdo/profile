@@ -47,7 +47,7 @@ body {
 .container .topSection .title {
   color: var(--titleColor);
   font-size: 3rem;
-  padding: 10px 0;
+  padding: 0 0 10px 0;
 }
 
 .container .topSection .subTitle {
